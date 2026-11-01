@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morning Atlas — Your Window to the World</title>
+    <meta name="description" content="An elegant global news dashboard and interactive world atlas delivering balanced, live international journalism in English and French." />
+    <meta name="theme-color" content="#1c1917" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Morning Atlas" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Morning Atlas" />
+    <meta property="og:title" content="Morning Atlas — Your Window to the World" />
+    <meta property="og:description" content="An elegant global news dashboard and interactive world atlas delivering balanced, live international journalism in English and French." />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Morning Atlas — Your Window to the World" />
+    <meta name="twitter:description" content="An elegant global news dashboard and interactive world atlas delivering balanced, live international journalism in English and French." />
+
+    <!-- Editorial Typography: Playfair Display + Plus Jakarta Sans + IBM Plex Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsMediaOrganization",
+      "name": "Morning Atlas",
+      "url": "https://morningatlas.world",
+      "description": "An elegant global news dashboard and interactive world atlas delivering balanced, live international journalism.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+  </head>
+  <body class="bg-[#FBF9F5] text-[#1C1917] dark:bg-[#0B0F17] dark:text-[#F3F4F6] min-h-screen transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

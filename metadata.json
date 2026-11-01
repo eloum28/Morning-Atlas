@@ -1,0 +1,6 @@
+{
+  "name": "Morning Atlas — Your Window to the World",
+  "description": "An elegant global news dashboard and interactive world atlas delivering balanced, live international journalism in English and French.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

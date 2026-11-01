@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background with slight rounded corners -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)" />
+  <!-- Outer Astrolabe / Globe Ring -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#e2e8f0" stroke-width="6" stroke-opacity="0.3" />
+  <circle cx="256" cy="256" r="140" fill="none" stroke="url(#gold)" stroke-width="4" stroke-dasharray="8 6" />
+  
+  <!-- Meridians and Equator -->
+  <ellipse cx="256" cy="256" rx="90" ry="180" fill="none" stroke="#e2e8f0" stroke-width="3" stroke-opacity="0.4" />
+  <ellipse cx="256" cy="256" rx="180" ry="60" fill="none" stroke="#e2e8f0" stroke-width="3" stroke-opacity="0.4" />
+  <line x1="256" y1="56" x2="256" y2="456" stroke="#e2e8f0" stroke-width="3" stroke-opacity="0.4" />
+  <line x1="56" y1="256" x2="456" y2="256" stroke="#e2e8f0" stroke-width="3" stroke-opacity="0.4" />
+
+  <!-- Center Atlas Compass Star / Newspaper fold emblem -->
+  <polygon points="256,120 274,236 390,256 274,276 256,392 238,276 122,256 238,236" fill="url(#gold)" />
+  <circle cx="256" cy="256" r="16" fill="#fef3c7" />
+</svg>
